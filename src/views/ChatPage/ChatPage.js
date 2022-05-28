@@ -33,7 +33,7 @@ const ChatPage = () => {
     console.log(reply);
   }, [reply]);
   const items = [
-    { id: "11", Name: "Adil" },
+    { id: "11", Name: "Adil1" },
     { id: "22", Name: "Mehran" },
     { id: "33", Name: "Abdullah" },
     { id: "44", Name: "Bilal" },

@@ -1,0 +1,52 @@
+.chatPage {
+  .chatBox {
+    .chatTitle {
+      text-align: left;
+      background-color: #8785a2;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    .chat {
+      height: 469.5px;
+      background-color: #f9f3ee;
+      padding: 30px 0px 30px 20px;
+      overflow-y: auto;
+      .emptyImage{
+        width: 65%;
+      }
+    }
+    .replyForm {
+      background-color: #f9f3ee;
+      border-top: 2px solid #dfdfde;
+      Form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 0px 0px 0px;
+        .ant-input {
+          width: 1100px;
+          margin-right: 10px;
+          border-radius: 8px;
+        }
+        .ant-btn {
+          width: fit-content;
+          height: fit-content;
+          padding: 0;
+          background-color: #f9f3ee;
+          border: none;
+        }
+      }
+    }
+  }
+  .welcomeImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    .image {
+      width: 80%;
+    }
+  }
+}

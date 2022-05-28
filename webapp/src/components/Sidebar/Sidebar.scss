@@ -1,0 +1,23 @@
+.sidebar {
+  border-right: 1px solid #dfdfde;
+  width: 20%;
+  .ant-layout-sider{
+    height: 82vh;
+    overflow-y: auto visible;
+    min-width: max-content !important;
+  }
+  .menu {
+    height: 100%;
+    width: 150%;
+    border-right: 0;
+    padding-top: 20px;
+    overflow-y: auto;
+  }
+
+}
+
+  .ant-modal-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

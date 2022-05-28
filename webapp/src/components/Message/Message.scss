@@ -1,0 +1,40 @@
+.message {
+  .messagePositionRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .messageContentRight {
+      background-color: #F0D9E7;
+      border-radius: 16px;
+      padding: 10px 20px;
+      margin-right: 30px;
+      margin-top: 20px;
+      min-width: 200px;
+      width: max-content;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      text-transform: capitalize;
+      .avatar {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .messageContentLeft {
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    min-width: 200px;
+    margin-top: 20px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    text-transform: capitalize;
+    .avatar {
+      margin-right: 10px;
+    }
+  }
+}
